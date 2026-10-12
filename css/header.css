@@ -41,11 +41,35 @@ nav {
   color: var(--text-secudary-color);
 }
 
-.list-links li{
-    margin: 16px 0;
+.list-links li {
+  margin: 16px 0;
 }
 
 .list-links li a {
   color: var(--text-secudary-color);
   text-decoration: none;
+  font-weight: var(--menu-text-weigth);
+  font-size: 24px
+}
+
+@media screen and (min-width: 768px) {
+  .navegation-menu {
+    margin-top: 0;
+  }
+
+  .navegation-menu label {
+    display: none;
+  }
+
+  .navegation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 467px;
+  }
+
+  .navegation-menu nav {
+    display: block;
+  }
 }
