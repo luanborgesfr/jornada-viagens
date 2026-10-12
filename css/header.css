@@ -1,26 +1,51 @@
 header {
   background-color: var(--background-tertiary-color);
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px;
+  position: relative;
 }
 
-.logo img{
+.logo img {
   width: 68px;
   height: 64px;
   display: inline-block;
 }
 
-.navegation-menu{
-    margin-top: 24px;
+.navegation-menu {
+  margin-top: 24px;
 }
 
-input[type="checkbox"]:checked ~ nav{
-    display: block;
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 0 48px;
+  box-sizing: border-box;
+
+  background-color: var(--background-tertiary-color);
 }
 
-nav{
-    display: none;
+nav {
+  display: none;
+}
+
+.list-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: var(--text-secudary-color);
+}
+
+.list-links li{
+    margin: 16px 0;
+}
+
+.list-links li a {
+  color: var(--text-secudary-color);
+  text-decoration: none;
 }
