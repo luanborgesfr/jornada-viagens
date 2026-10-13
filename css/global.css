@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
   font-style: normal;
   font-display: swap;
@@ -24,5 +24,37 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
+  color: var(--text-primary-color);
+}
+
+body {
+  font-family: "Montserrat";
+  color: var(--secundary-color);
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weigth);
+  margin: 0;
+  color: var(--text-primary-color);
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secundary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: var(--title-weigth);
+    margin: 0;
+    color: var(--text-primary-color);
+    text-align: center;
+  }
 }
