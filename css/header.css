@@ -15,7 +15,7 @@ header {
 }
 
 .img-mobile {
-  display: block;
+  display: inline;
 }
 
 .img-desktop {
@@ -29,7 +29,7 @@ header {
 }
 
 .navegation-menu {
-  margin-top: 24px;
+  margin-top: 024px;
 }
 
 input[type="checkbox"]:checked ~ nav {
@@ -108,7 +108,7 @@ nav {
   }
 }
 
-@media screen and (min-width=1920) {
+@media screen and (min-width:1920px) {
   header {
     padding: 38px 160px;
   }
