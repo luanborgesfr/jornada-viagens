@@ -17,21 +17,21 @@
   margin-bottom: 24px;
 }
 
-.card header p{
-    font-size: 20px;
-    font-weight: var(--text-weigth);
+.card header p {
+  font-size: 20px;
+  font-weight: var(--text-weigth);
 }
 
-.card header h3{
-    font-size: 40px;
-    font-weight: var(--title-weigth);
-    margin: 8px 0 0;
+.card header h3 {
+  font-size: 40px;
+  font-weight: var(--title-weigth);
+  margin: 8px 0 0;
 }
 
-.card header span{
-    font-size: 32px;
-    margin-top: 24px;
-    display: inline-block;
+.card header span {
+  font-size: 32px;
+  margin-top: 24px;
+  display: inline-block;
 }
 
 .card footer {
@@ -41,4 +41,23 @@
 
 .card .button {
   width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+
+  .card header h3 {
+    font-size: 48px;
+    font-weight: var(--title-weigth);
+    margin: 8px 0 0;
+  }
+
+  .card header span {
+    font-size: 40px;
+    margin-top: 24px;
+    display: inline-block;
+  }
 }
