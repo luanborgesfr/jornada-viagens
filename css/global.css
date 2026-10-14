@@ -65,6 +65,7 @@ a {
   line-height: 64px;
 }
 
+
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 32px;
