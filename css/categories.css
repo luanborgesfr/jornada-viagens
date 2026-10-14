@@ -14,6 +14,7 @@ section.categories {
   background-color: var(--background-secundary-color);
   width: 312px;
   height: 220px;
+  border-radius: 16px;
   text-align: center;
   font-size: 24px;
   text-decoration: none;
@@ -42,7 +43,14 @@ section.categories {
     margin: 0 121.5px;
   }
   .icons-categories .icon-nacional {
-    width: 170px;
+    width: 312px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .icons-categories .icon-nacional {
+    width: 235px;
+    height: 270px;
   }
 }
 
@@ -51,7 +59,8 @@ section.categories {
     margin-top: 50px;
   }
   .icons-categories .icon-nacional {
-    width: 390px;
+    width: 200px;
     height: 270px;
+    margin: 0 50px;
   }
 }
