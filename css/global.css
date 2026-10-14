@@ -41,12 +41,12 @@ a {
   margin: 0 auto 88px;
 }
 
-.section.hero{
+.section.hero {
   width: 100%;
   margin: 0;
 }
 
-.section-title{
+.section-title {
   width: 280px;
   margin: 0 auto 32px;
 }
@@ -65,6 +65,17 @@ a {
   background-color: var(--secundary-color);
   border: none;
   margin: 16px auto 32px;
+}
+
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weigth);
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weigth);
+  line-height: 32px;
 }
 
 .button {
@@ -86,7 +97,7 @@ a {
     width: 648px;
   }
 
-  .section-title{
+  .section-title {
     width: 100%;
     margin: 0 auto;
   }
