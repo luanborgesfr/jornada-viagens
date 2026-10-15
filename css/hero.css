@@ -1,7 +1,16 @@
-.hero-img{
+.hero .hero-img,
+.botton-hero .hero-img{
     height: 400px;
     width: 100%;
-    background: url(../img/hero-mobile.jpg) no-repeat;
+}
+
+.hero .hero-img{
+    background: url(../img/hero-mobile.jpg);
+    background-size: cover;
+}
+
+.botton-hero .hero-img{
+    background: url(../img/img-pre-rodape.png);
     background-size: cover;
     background-position: center;
 }
@@ -12,15 +21,20 @@
     font-weight: var(--text-weigth);
     font-size: 20px;
     text-align: center;
-    line-height: 32px;
+    line-height: 1.5;
 }
 
 @media screen and (min-width:768px) {
-    .hero-img{
+    .hero .hero-img{
     height: 620px;
-    width: 100%;
     background: url(../img/hero-tablet.jpg) no-repeat center center/cover;
 }
+
+    .botton-hero .hero-img{
+        height: 400px;
+        background: url(../img/img-pre-rodape-tablet.png);
+        background-size: cover;
+    }
 
     .hero h2{
     padding: 88px 68px;
@@ -29,8 +43,15 @@
 }
 
 @media screen and (min-width:1024px) {
-    .hero-img{
+    .hero .hero-img{
     background: url(../img/hero-desktop.jpg) no-repeat center center/cover;
+    }
+
+    .botton-hero .hero-img{
+        height: 600px;
+        background: url(../img/img-pre-rodape-desk.png);
+        background-size: cover;
+        background-position: center;
     }
 
     .hero h2 {
