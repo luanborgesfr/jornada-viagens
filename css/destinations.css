@@ -21,7 +21,6 @@
   background-position: center;
 }
 
-
 .destination-itens > article.item.tokyo header > .img-item {
   background-image: url(../img/tokyo-mobile.jpg);
 }
@@ -73,5 +72,11 @@
 @media screen and (min-width: 1024px) {
   .destinations {
     width: 900px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    .destinations .item p {
+      font-size: 24px;
+    }
   }
 }
