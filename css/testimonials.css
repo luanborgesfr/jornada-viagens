@@ -54,4 +54,10 @@
     margin: 0 120px;
 }
 
+@media screen and (min-width:1920px) {
+    .testimonial-container article header p{
+        font-size: 20px;
+    }
+}
+
 }
