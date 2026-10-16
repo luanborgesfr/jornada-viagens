@@ -14,6 +14,15 @@
   width: 100%;
 }
 
+.text-content h3{
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.text-content .content-title{
+  font-size: 26px;
+}
+
 .payments .content-container .image-gallery .image.bag {
   background: url(../img/img-bag.png) no-repeat;
   background-position: center;
@@ -28,6 +37,30 @@
 
 .payments .content-container .image-gallery .image.passport {
   background: url(../img/img-passport.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
+
+/*PACOTES DE VIAGENS*/
+
+.payments .content-container .image-gallery .image.bag.packpages {
+  background: url(../img/gallery-photo1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.passport.second.packpages {
+  background: url(../img/gallery-photo2.jpg) no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.people.thirdy.colspan-2.packpages {
+  background: url(../img/gallery-photo3.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 }

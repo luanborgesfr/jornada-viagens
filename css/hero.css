@@ -1,67 +1,144 @@
 .hero .hero-img,
-.botton-hero .hero-img{
-    height: 400px;
-    width: 100%;
+.botton-hero.packpages .hero-img {
+  height: 400px;
+  width: 100%;
 }
 
-.hero .hero-img{
-    background: url(../img/hero-mobile.jpg);
-    background-size: cover;
+.hero .hero-img {
+  background: url(../img/hero-mobile.jpg);
+  background-size: cover;
 }
 
-.botton-hero .hero-img{
-    background: url(../img/img-pre-rodape.png);
-    background-size: cover;
-    background-position: center;
+.botton-hero .hero-img {
+  background: url(../img/img-pre-rodape.png);
+  background-size: cover;
+  background-position: center;
 }
 
-.hero h2{
-    padding: 88px 24px;
-    margin: 0px;
-    font-weight: var(--text-weigth);
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.5;
+.hero h2 {
+  padding: 88px 24px;
+  margin: 0px;
+  font-weight: var(--text-weigth);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
 }
 
-@media screen and (min-width:768px) {
-    .hero .hero-img{
+/*PACOTES DE VIAGENS*/
+
+.travel-packages .hero-img {
+  height: 460px;
+  background: url(../img/img-hero-destiny-tablet.png) no-repeat;
+  background-size: cover;
+}
+
+.travel-packages .hero-content {
+  padding: 65px 24px;
+}
+
+.travel-packages .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secudary-color);
+  font-weight: var(--title-weigth);
+}
+
+.travel-packages .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secundary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
+.travel-packages .hero-content p {
+  font-size: 20px;
+  color: var(--text-secudary-color);
+  font-weight: var(--text-weigth);
+  line-height: 32px;
+}
+
+.botton-hero.packpages .hero-img {
+  background: url(../img/bottom-hero-tablet.png);
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero .hero-img {
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat center center/cover;
-}
+  }
 
-    .botton-hero .hero-img{
-        height: 400px;
-        background: url(../img/img-pre-rodape-tablet.png);
-        background-size: cover;
-    }
+  .botton-hero .hero-img {
+    height: 400px;
+    background: url(../img/img-pre-rodape-tablet.png);
+    background-size: cover;
+  }
 
-    .hero h2{
+  .hero h2 {
     padding: 88px 68px;
     font-size: 32px;
-}
+  }
+
+  /*PACOTES DE VIAGENS*/
+  .travel-packages .hero-content {
+    padding: 209px 120px 108px;
+    margin: 0 auto;
+  }
+
+  .travel-packages .hero-content p {
+    width: 570px;
+  }
+
+  .travel-packages .hero-img {
+    background: url(../img/img-hero-destiny-desktop.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
 }
 
-@media screen and (min-width:1024px) {
-    .hero .hero-img{
+@media screen and (min-width: 1024px) {
+  .hero .hero-img {
     background: url(../img/hero-desktop.jpg) no-repeat center center/cover;
-    }
+  }
 
-    .botton-hero .hero-img{
-        height: 600px;
-        background: url(../img/img-pre-rodape-desk.png);
-        background-size: cover;
-        background-position: center;
-    }
+  .botton-hero .hero-img {
+    height: 600px;
+    background: url(../img/img-pre-rodape-desk.png);
+    background-size: cover;
+    background-position: center;
+  }
 
-    .hero h2 {
+  .hero h2 {
     padding: 88px 120px;
     font-size: 32px;
-    }
+  }
+
+  /*PACOTE DE VIAGENS*/
+  .travel-packages .hero-content {
+    padding: 150px 120px 170px;
+    margin: 0 auto;
+  }
+
+  .travel-packages .hero-content p {
+    width: 570px;
+  }
+
+  .travel-packages .hero-img {
+    background: url(../img/img-hero-destiny-desktop.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
 }
 
-@media screen and (min-width:1920px) {
-    .hero h2 {
+@media screen and (min-width: 1440px) {
+  .travel-packages .hero-content {
+    width: 1200px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero h2 {
     padding: 88px 160px;
-    }
+  }
 }
